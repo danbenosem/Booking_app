@@ -2,15 +2,31 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 
-	var conferenceName = "Uefa"
+        
 
-	fmt.Println("Welcome to Danilo's Booking Application for the %v conference",conferenceName)
+    fmt.Println("Welcome to Booking Application")
+    const tickets = 50
+
+    
+    
+    fmt.Println("How many tickets do you want to buy?") 
+    var user_input int
+    var user_name string
+    usename_array:=[]string{}
+    fmt.Scan(&user_input)
+
+    fmt.Println("Enter your name")
+    fmt.Scan()
+
+    remaining_ticket:= 50-user_input
+
+    fmt.Printf("The number of tickets remaining is %v\n ",remaining_ticket)
 
 
-     
 
 
-	
+
+
 }
