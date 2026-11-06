@@ -18,7 +18,7 @@ func main() {
     fmt.Scan(&user_input)
 
     fmt.Println("Enter your name")
-    fmt.Scan(&user_name)
+    fmt.Scanln(&user_name)
     usename_array=append(usename_array,user_name)
 
     remaining_ticket:= 50-user_input
