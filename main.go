@@ -9,13 +9,20 @@ func main() {
     fmt.Println("Welcome to Booking Application")
     const tickets = 50
 
-
-    fmt.Println("How many tickets do you want to buy?")
+    
+    
+    fmt.Println("How many tickets do you want to buy?") 
     var user_input int
-    fmt.Scan(user_input)
+    var user_name string
+    usename_array:=[]string{}
+    fmt.Scan(&user_input)
+
+    fmt.Println("Enter your name")
+    fmt.Scan()
+
     remaining_ticket:= 50-user_input
 
-    fmt.Print("The number of tickets remaining is %v",remaining_ticket)
+    fmt.Printf("The number of tickets remaining is %v\n ",remaining_ticket)
 
 
 
