@@ -1,29 +1,21 @@
 package main
 
-import "fmt"
+
+	
 
 func main() {
 
         
 
-    fmt.Println("Welcome to Booking Application")
+    
     const tickets = 50
 
+    CollectDetails()
+
     
     
-    fmt.Println("How many tickets do you want to buy?") 
-    var user_input int
-    var user_name string
-    usename_array:=[]string{}
-    fmt.Scan(&user_input)
-
-    fmt.Println("Enter your name")
-    fmt.Scanln(&user_name)
-    usename_array=append(usename_array,user_name)
-
-    remaining_ticket:= 50-user_input
-
-    fmt.Printf("The number of tickets remaining is %v\n ",remaining_ticket)
+    
+    
 
 
 
