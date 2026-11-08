@@ -2,15 +2,19 @@ package main
 
 
 	
+ const Tickets = 50
 
 func main() {
 
         
 
     
-    const tickets = 50
+   
+    
+    
 
-    CollectDetails()
+    user := CollectDetails()
+    TicketLogic(user)
 
     
     

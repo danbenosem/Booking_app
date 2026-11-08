@@ -1,34 +1,35 @@
 package main
 
-import "fmt"
-
-
-type User struct{
-
-   firstName string
-   LastName string
-   email string
-   ticketNumber int
-
-
-}
+import ("fmt"
+    "Booking_app/models"
+ 
+)
 
 
 
-func  CollectDetails() User{
-	var user User
+
+
+
+func  CollectDetails() model.User{
+	var user model.User
 
 
 	fmt.Println("Welcome to Booking Application")
 	fmt.Println("")
 	fmt.Println("Enter your first Name:")
-	fmt.Scanln(&user.firstName)
+	fmt.Scanln(&user.FirstName)
 
 	fmt.Println("Enter your lastName")
 	fmt.Scanln(&user.LastName)
 
 	fmt.Println("Enter your Email")
-	fmt.Scanln(&user.email)
+	fmt.Scanln(&user.Email)
+
+	fmt.Println("Enter the number of ticket")
+	fmt.Scanln(&user.TicketNumber)
+
+
+
 
 	return user
 
